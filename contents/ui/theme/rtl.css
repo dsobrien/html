@@ -1,0 +1,183 @@
+
+body {
+direction: rtl;
+unicode-bidi: embed;
+} 
+ul,
+ol {
+margin: 0 3em 1.5em 0;
+}
+li > ul,
+li > ol {
+margin-right: 1.5em;
+margin-left: auto;
+}
+textarea {
+padding-right: 3px;
+padding-left: 0;
+}
+.main-navigation ul {
+padding-right: 0;
+padding-left: 0;
+}
+.main-navigation li {
+float: right;
+}
+.main-navigation ul ul {
+float: right;
+right: -999em;
+left: auto;
+}
+.main-navigation ul ul ul {
+right: -999em;
+left: auto;
+}
+.main-navigation ul li:hover > ul {
+right: auto;
+left: auto;
+}
+.main-navigation ul ul li:hover > ul {
+right: 100%;
+left: auto;
+}
+@media screen and (max-width: 6000px) {
+}
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+float: right;
+}
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+float: left;
+text-align: left;
+}
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+right: 5px;
+left: auto;
+}
+.alignright {
+float: right;
+margin-left: 1.5em;
+margin-right: auto;
+}
+.alignleft {
+float: left;
+margin-right: 1.5em;
+margin-left: auto;
+}
+.aligncenter {
+margin-right: auto;
+margin-left: auto;
+}
+.site-header {
+float: right;
+}
+.site-branding {
+left: 20px;
+right: auto;
+}
+.site-branding-home {
+left: 20px;
+right: auto;
+}
+.site-footer {
+float: left;
+margin-left: 10px;
+margin-right: auto;
+}
+.site-footer-home {
+left: 0;
+right: auto;
+}
+#home-content {
+right: 0;
+padding: 20px 150px 20px 50px;
+left: auto;
+}
+ul.home-details li {
+padding-right: 35px;
+padding-left: 0;
+}
+ul.home-details li .fa {
+margin-right: -35px;
+float: right;
+margin-left: auto;
+}
+button.resume {
+margin-right: 10px;
+margin-left: auto;
+}
+.bio-image::after {
+right: 0;
+left: auto;
+}
+#page-content-container {
+padding: 30px 140px 30px 150px;
+}
+#single-content-container {
+padding: 30px 200px 30px 110px;
+}
+.blog-archive-container .masonry-post {
+margin-left: 3%;
+float: right;
+margin-right: auto;
+}
+.single-entry-header {
+padding: 120px 200px 80px 110px;
+}
+.header-image-overlay {
+left: 0;
+right: 0;
+}
+.search-archive article {
+padding: 30px !important 5px 30px;
+}
+.comments-area ol.children {
+margin-right: 1.5em;
+margin-left: auto;
+}
+.comment-form-author, .comment-form-email, .comment-form-url {
+float: right;
+}
+.comment-form-author, .comment-form-email {
+padding-left: 0.5em;
+padding-right: 0;
+}
+footer.comment-meta {
+float: right;
+}
+div.comment-content {
+float: left;
+}
+div.reply {
+padding-right: 30%;
+padding-left: 0;
+}
+.project-content {
+right: 0;
+left: 0;
+}
+.project-bg {
+right: 0;
+left: 0;
+}
+#secondary > #mt-projects > .grid-pad,
+#secondary > #mt-testimonials > .grid-pad,
+#secondary > #mt-clients > .grid-pad,
+#secondary > #mt-members > .grid-pad,
+#secondary > #mt-services > .grid-pad {
+padding-right: 0;
+padding-left: 0;
+}
+#secondary > #mt-projects > .grid > [class*="col-"],
+#secondary > #mt-testimonials > .grid > [class*="col-"],
+#secondary > #mt-clients > .grid > [class*="col-"],
+#secondary > #mt-members > .grid > [class*="col-"],
+#secondary > #mt-services > .grid > [class*="col-"] {
+padding-left: 0;
+padding-right: 0;
+}
